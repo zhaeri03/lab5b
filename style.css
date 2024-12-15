@@ -1,0 +1,83 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Centered container */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #fff; /* White border */
+    background-color: #111; /* Slightly lighter black for contrast */
+    border-radius: 5px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #000; /* Black table background */
+    color: #fff; /* White table text */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #fff; /* White border around table cells */
+}
+
+th {
+    background-color: #333; /* Dark grey for headers */
+}
+
+/* Form styling */
+form {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #fff;
+    background-color: #111; /* Slightly lighter black */
+    border-radius: 5px;
+}
+
+form input, form select, form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #fff;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+
+form button {
+    cursor: pointer;
+    font-weight: bold;
+    border: 2px solid #fff;
+    background-color: #333;
+    transition: all 0.3s;
+}
+
+form button:hover {
+    background-color: #555; /* Slightly lighter grey on hover */
+}
+
+/* Links */
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #fff;
+    text-align: center;
+}
